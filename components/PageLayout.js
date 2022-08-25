@@ -10,7 +10,7 @@ const PageLayout = ({ children, title = 'NewsApp' }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-        NewsApp
+        🗞 NewsApp
         <Link href="/about">Ir a about</Link>
       </header>
       <main>{children}</main>
