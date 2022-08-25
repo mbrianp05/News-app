@@ -1,5 +1,7 @@
+import PageLayout from '../components/PageLayout'
+
 const About = () => {
-  return <h1>Esta es la pagina de about</h1>
+  return <PageLayout title="About"><h1>Esta es la pagina de about</h1></PageLayout>
 }
 
 export default About

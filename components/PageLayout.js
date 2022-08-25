@@ -1,17 +1,15 @@
 import Head from 'next/head'
 
-const PageLayout = ({ children }) => {
+const PageLayout = ({ children, title = 'NewsApp' }) => {
   return (
     <>
       <Head>
-        <title>NewsApp</title>
+        <title>{title}</title>
         <meta name="description" content="Watch the latest news online" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>NewsApp</header>
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
       <style jsx>{`
         header {
           padding: 20px;
